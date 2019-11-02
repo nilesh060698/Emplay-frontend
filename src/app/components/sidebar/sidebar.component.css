@@ -1,0 +1,28 @@
+.sidebar {
+  float: right;
+  top: 30%;
+  float: left;
+  position: fixed;
+  vertical-align: middle;
+  font-family: "Raleway",sans-serif;
+  font-weight: bold;
+  margin-left: 10%;
+}
+h4{
+  margin-bottom: 20px;
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
+}
+img{
+  margin-left: 20%;
+}
+h5{
+  text-align: center;
+  font-weight: bolder;
+  color: red;
+}
+@media(max-width:650px) {
+  .sidebar{
+  top:50%;
+  }
+}

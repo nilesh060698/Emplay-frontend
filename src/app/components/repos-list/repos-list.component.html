@@ -1,0 +1,9 @@
+<div  class="repos" *ngIf ="data.items && length!=0">
+  <div  class="repo"   *ngFor="let data of data.items;index as i">
+      <div class="text-box">
+        <h3>{{data.full_name}}</h3>
+        <p>{{data.owner.url}}</p>
+        <p>{{data.owner.login}}</p>
+    </div>
+  </div>
+</div>

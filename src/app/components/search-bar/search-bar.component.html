@@ -1,0 +1,11 @@
+
+<div class="searchform cf">
+  <img class="logo" src="../../../assets/emplay.png" height="60" width="150"/>
+  <input type="text" (keyup)="onKey($event)"  placeholder="type the repo you are looking for?">
+  <button type="submit">Search</button>
+</div>
+
+<div *ngIf="loading">
+  <div id="loading"></div>
+</div>
+<app-repos-list *ngIf = "!loading" [selectedData]="apiData" [length]="values.length"><app-repos-list>

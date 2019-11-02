@@ -1,0 +1,8 @@
+<div class="sidebar">
+  <div *ngIf="totalRepoCount">
+   <h5 *ngIf="totalRepoCount.eventCount !=0">{{totalRepoCount.totalCount}}</h5>
+   <h5 *ngIf="totalRepoCount.eventCount==0">{{totalRepoCount.eventCount}}</h5>
+   </div>
+  <h4>Total Repository Count</h4>
+  <img src="../../../assets/Octocat.png" height="150" width="150"/>
+</div>

@@ -1,0 +1,23 @@
+.repos {
+  margin-top: 20%;
+  font-family: "Raleway",sans-serif;
+  color: white;
+}
+
+.repo{
+  border-radius: 10px;
+  margin-bottom:20px;
+  padding: 15px;
+  position: relative;
+  background-image: linear-gradient(to right,#696969,white);
+  cursor: pointer;
+  z-index: 2222;
+}
+.repo:hover{
+  box-shadow:5px 10px 8px 10px #888888;
+}
+@media(max-width:650px) {
+  .repos {
+    margin-top: 70%;
+  }
+}
